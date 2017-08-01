@@ -1,0 +1,313 @@
+
+@media (min-width: 770px) {
+    body {
+        width: 100%;
+    }
+}
+
+html, body {
+    height: 100%;
+    font-size: 16px;
+}
+
+/*For Footer u need to set "html, body height = 100%" */
+.footer {
+    color: #fff;
+    background-color: #505759;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.story-panel--lime,
+.story-panel--yellow,
+.story-panel--green,
+.story-panel--red {
+    height: 250px;
+    background-color: #fff;
+    margin-top: 8%;
+}
+
+/*START HEADER MENUS*/
+.menu-browse {
+    display: block;
+    z-index: 300;
+    position: relative;
+    background: #007a9c;
+}
+
+@media (min-width: 1036px) {
+    .menu-browse .child-page-list-level-1 {
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 10px;
+        margin: 0 auto;
+        list-style: none;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+}
+
+@media (min-width: 1036px) {
+    .menu-browse ul, .menu-browse ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        -webkit-padding-start: 0;
+    }
+}
+
+@media (min-width: 1036px) {
+    .menu-browse .child-page-list-level-1 > li.has-sub-nav {
+        padding-right: 25px;
+    }
+}
+
+@media (min-width: 1036px) {
+    .menu-browse .child-page-list-level-1 > li {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        position: relative;
+        margin-top: 6px;
+    }
+}
+
+ul li {
+    list-style: none;
+}
+
+@media (min-width: 1036px) {
+    .menu-browse .child-page-list-level-1 > li.has-sub-nav > a:not(.toggle-open) {
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 1036px) {
+    .menu-browse .child-page-list-level-1 > li > a:not(.toggle-open) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        /*display: flex;*/
+        height: 100%;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.6rem;
+        padding: 8px 15px 14px;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -o-transition: all .2s;
+        transition: all .2s;
+    }
+}
+
+menu-browse .child-page-list-level-1 li a {
+    color: #007a9c;
+    font-weight: 400;
+    padding: 14px 10px 14px 15px;
+}
+
+.menu-browse a {
+    font-size: 16px !important;
+}
+
+.menu-browse .subnav-item a:hover {
+    background-color: #fff;
+    color: #007a9c !important;
+}
+
+.caret {
+    border-top: 4px solid #fff;
+}
+/*END HEADER MENUS */
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #428bca;
+    background-color: #fff;
+}
+
+.nav-pills > li > a {
+    border-radius: 0;
+}
+
+/*.main-Wrapper {
+    background-color: #fff;
+    min-height: 800px;
+}*/
+
+/*NEW Design*/
+.pStoryPanel {
+    -webkit-box-shadow: 0 5px 20px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 0 5px 20px 1px rgba(0,0,0,0.44);
+    box-shadow: 0 5px 20px 1px rgba(0,0,0,0.44);
+    padding: 0;
+}
+
+.login.pStoryPanel {
+    margin-top: 10%;
+    height: 40%;
+}
+
+.login .header-wrapper {
+    height: 50px;
+    background-color: #007a9c;
+    color: #fff;
+    vertical-align: middle;
+    padding: 5px 20px;
+}
+
+.login .header-wrapper h1, .login .header-wrapper h2, .login .header-wrapper h3 {
+    color: #fff;
+}
+
+.login .table-wrapper {
+    margin: 20%;
+}
+
+.login table tr td {
+    padding: 10px;
+}
+
+    .login table tr td input {
+        padding: 2px 5px;
+    }
+
+.login h1 {
+    font-size: 1.6rem;
+}
+/*Regitsre Reports*/
+.search-wrapper {
+    height: 150px;
+    margin: 10% -15px;
+    background-color: #eee;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 3px #EE7800;
+}
+
+.regitser-report .form-container {
+    border: none;
+}
+
+.list-wrapper {
+    padding: 10px 70px;
+    font-size: 13px;
+}
+
+.list-wrapper table thead tr td {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    border: none;
+}
+
+    .dropdown-menu > li > a {
+        padding: 8px 20px;
+    }
+
+.nav .open > a {
+    color: #428bca;
+    background-color: #fff;
+}
+
+/*START LANDING PAGE*/
+body {
+    height: 100%;
+    width: 100%;
+}
+#backgroundimage
+{
+   height: auto;
+   left: 0;
+   margin: 0;
+   min-height: 100%;
+   min-width: 674px;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+}
+.landing-page-main-wrapper{
+  background-image:url('../images/RPlandingImg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  height: auto;
+  left: 0;
+  margin: 0;
+  min-height: 100%;
+  min-width: 674px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.landing-img-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid 0.5px gray;
+    width: 620px;
+    color: blue;
+    margin-top: 20%;
+    margin-bottom: auto;
+    text-align: center;
+    background-color: #ccc;
+    opacity: 0.6;
+}
+.landing-img-container h2{
+    color: black;
+    opacity: 1;
+    font-weight: 600;
+}
+.btn.btn-login{
+
+  background-image: url('../images/RPbtn_google_signin.png');
+    height: 40px;
+    width: 180px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-radius: 0;
+}
+/*END LANDING PAGE*/
+a.active-link{
+ background-color: #f7f7f7;
+ color: #007a9c;
+}
+.title h1{
+ color: #007a9c;
+}
+.content_container{
+  background-color:white;
+  height:100%;
+  padding: 10px;
+}
+.content_container .row{
+  margin:0px;
+}
+.table-hover tbody tr:hover {
+  background-color: #D1D119;
+  cursor: pointer;
+}
+.ng-tool-tip-content{
+  width:auto;
+}
+.nonAuth{
+  padding-top: 120px;
+  text-align: center;
+}
